@@ -1,0 +1,49 @@
+<form action="/Pagina-processa-dados-do-form" method = "post>
+ <fieldset>
+ <legend>Dados Gerais</legend>
+ <label for="nome">Nome:</label>
+ <input type="text" name="nome" id="nome" required>
+ <br>
+ <label for="data de nascimento">Data de nascimento:</label>
+ <input type="date" name="data de nascimento" id="data de nascimento" required>
+
+ <label for="CPF">CPF:</label>
+ <input type="text" name="CPF" id="CPF" required>
+ <br>
+ </fieldset>
+ <fieldset>
+    <legend>Endereço</legend>
+    <label for="endereço">Endereço:</label>
+    <select name="endereço" id="endereço" required>
+        <option value="">Selecione</option>
+        <option value="rua">Rua</option>
+        <option value="avenida">Avenida</option>
+        <option value="praça">Praça</option>
+    </select>
+    <br>
+
+    <label for ="Logradouro_endereço">Logradouro:</label>
+    <input type="text" name="Logradouro_endereço" id="Logradouro_endereço" required>
+
+    <label for="Numero de endereço">Numero:</label>
+    <input type="text" name="Numero de endereço" id="Numero de endereço" required>
+
+    <label for="Complemento_Endereço">Complemento:</label>
+    <input type="text" name="Complemento_Endereço" id="Complemento_Endereço" required>
+    <fieldset>
+
+    </fieldset>
+    
+    <fieldset>
+    <legend>Fale conosco</legend>
+    
+    <label for="msg">Mensagem:</label>
+    <textarea type="text" id="msg"></textarea>
+    </fieldset>
+
+    <fieldset>
+    <button type="submit">Enviar sua mensagem</button>
+    <button type="reset">Limpar formulário</button>
+    </fieldset>
+
+</form>
